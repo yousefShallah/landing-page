@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awesome links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- css links -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Unit One</title>
+</head>
+<body>
+    <!-- to top -->
+    <a href="#home" class="to-top">
+        <i class="fa fa-chevron-up"> </i>
+    </a>
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <iframe width="600" height="315" autocapitalize="true"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+            <!-- <video width="600" controls>
+                <source src="https://www.youtube.com/embed/tgbNymZ7vqY" type="video/mp4">
+            </video> -->
+        </div>
+    </div>
+      <!-- end modal -->
+    <header class="navbar-continer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"  id="navbar">
+            <a class="navbar-brand nav-logo" href="#"> <i class="fa fa-google"></i> </a>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about">about us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#services">services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#blog">blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#connect">Contact Us</a>
+                    </li>
+                </ul>
+                <div>
+                    <button class="btn btn-connect" type="submit"> contact us </button>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <div class="row header-continer " id="home">
+        <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 head-text-continer" data-aos="fade-right">
+            <img src="./images/head-circle" alt="">
+            <h2>We help to</h2>
+            <h1> solve clients </h1>
+            <h2>problems</h2> <br/>
+            <p>
+                Our Activate suite of business apps gives your Lorem ipsum dolor sit amet, consectetur.
+            </p>
+            <div class="head-btns-continer">
+                <button class="our-portofolio-btn">Our Portofolio</button>
+                <button class="btn btn-primary play-video-btn" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-play"></i></button>
+            </div>
+            <div class="head-dot-img">
+                <img src="./images/head-dot" alt="">
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 head-img-continer" data-aos="fade-left">
+            <img src="./images/head-img" alt="">
+        </div>
+    </div>
+
+    <div class="about-us-continer" id="about">
+        <div class="about-tittle">
+            <p> These Companies Trust Us </p>
+            <h2> with their marketing </h2>
+        </div>
+        <div class="about-brands">
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                <!--Slides-->
+                <div class="carousel-inner">
+                  <!--First slide-->
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-1 btn-carousel">
+                            <div class=" mb-1">
+                                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand1"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand5"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-md-2 clearfix d-none d-md-block">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand2"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+            
+                        <div class="col-md-2 clearfix d-none d-md-block">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand3"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 clearfix d-none d-md-block">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand4"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 btn-carousel">
+                            <div class=" mb-1">
+                                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.First slide-->
+          
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-1 btn-carousel">
+                            <div class=" mb-1">
+                                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand1"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand5"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-md-2 clearfix d-none d-md-block">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand2"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+            
+                        <div class="col-md-2 clearfix d-none d-md-block">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand3"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 clearfix d-none d-md-block">
+                            <div class=" mb-2">
+                                <img class="" src="./images/brand4"
+                                alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 btn-carousel">
+                            <div class=" mb-1">
+                                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  <!--/.Second slide-->
+                </div>
+                <!--/.Slides-->
+            </div>        
+        </div>
+            <div class="about-desc row">
+                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 about-img-continer" data-aos="fade-right">
+                    <img src="./images/about-img" alt="">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1 about-line-text">
+                    <h1>
+                        ___
+                    </h1>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 about-text-continer" data-aos="fade-left">
+                    <h2> About us </h2><br/>
+                    <h4> Simple! Our mission is to become the best design agency in the world! </h4><br/>
+                    <p> 
+                        What’s an outsourced marketing un-agency, you say? Well, we’re the antithesis to your run-of-the-mill agency that oversells and underdelivers. <br/><br/>
+                        Lately, it’s been about closing the biggest contracts. But what about making the biggest impact for clients? Our goal is to get RESULTS that will make clients HAPPY without overpricing. <br/><br/>
+                        Feeling skeptical? Work with us, and see the difference between getting marketing partners invested in your growth, versus salesmen invested in milking you dry!<br/><br/>
+                    </p>
+                    <button> LET'S TALK! </button>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="last-about-tittle">
+                <p> Digital Marketing Agency & Software Development </p>
+                <h2> Company Website Design Full Services. </h2>
+            </div>
+            <div class="about-counter-number row">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4"> 
+                    <h2>13K</h2>
+                    <p>Active Work</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4"> 
+                    <h2>189+</h2>
+                    <p>Team Members</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4"> 
+                    <h2>16K</h2>
+                    <p>Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- Services. -->
+        <div class="services-continer" id="services">
+            <div class="services-boxs-continer">
+                <div class="services-tittle">
+                    <p> We Are A Digital Agency </p>
+                    <h2> Experts Services To Change Business </h2>
+                </div>
+                <div class="services-boxs row">
+                    <!-- box 1 -->
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 " data-aos="zoom-in">
+                        <div class="row serv-box">
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 serv-icon"> <i class="fa fa-link"></i> </div>
+                            <div class="col-sm-6 col-md-6 col-lg-7 col-xl-7 serv-text-box"> 
+                                <h2> Link Building </h2>
+                                <p> We'll earn white hat backlinks and send qualified traffic to your business through guest posting. </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 plus-icon"> <i class="fa fa-plus"></i> </div>
+                        </div>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 " data-aos="zoom-in">
+                        <div class="row serv-box">
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 serv-icon"> <i class="fa fa-link"></i> </div>
+                            <div class="col-sm-6 col-md-6 col-lg-7 col-xl-7 serv-text-box"> 
+                                <h2> Link Building </h2>
+                                <p> We'll earn white hat backlinks and send qualified traffic to your business through guest posting. </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 plus-icon"> <i class="fa fa-plus"></i> </div>
+                        </div>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 " data-aos="zoom-in">
+                        <div class="row serv-box">
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 serv-icon"> <i class="fa fa-link"></i> </div>
+                            <div class="col-sm-6 col-md-6 col-lg-7 col-xl-7 serv-text-box"> 
+                                <h2> Link Building </h2>
+                                <p> We'll earn white hat backlinks and send qualified traffic to your business through guest posting. </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 plus-icon"> <i class="fa fa-plus"></i> </div>
+                        </div>
+                    </div>
+                    <!-- box 4 -->
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 " data-aos="zoom-in">
+                        <div class="row serv-box">
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 serv-icon"> <i class="fa fa-link"></i> </div>
+                            <div class="col-sm-6 col-md-6 col-lg-7 col-xl-7 serv-text-box"> 
+                                <h2> Link Building </h2>
+                                <p> We'll earn white hat backlinks and send qualified traffic to your business through guest posting. </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 plus-icon"> <i class="fa fa-plus"></i> </div>
+                        </div>
+                    </div>
+                    <!-- end boxs -->
+                </div>
+                <div class="services-dot-img">
+                    <img src="./images/services-dot" alt="">
+                </div>
+            </div>
+            <div class="portfolio-continer" id="portfolio">
+                <div class="portfolio-tittle">
+                    <p> Awesome Portfolio </p>
+                    <h2> We Have A Great Portfolio To Check </h2>
+                </div>
+                <div class="portfoilio-boxs" data-aos="fade-left">
+                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner">
+                            <!--First slide-->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="port-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"   
+                                            alt="Card image cap">
+                                            <div class="desc-portifolio">
+                                                <h2> Web Design project </h2>
+                                                <p> UX/UI Design </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="port-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                                            alt="Card image cap">
+                                            <div class="desc-portifolio">
+                                                <h2> Web Design project </h2>
+                                                <p> UX/UI Design </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-lg-3 ">
+                                        <div class="port-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                                            alt="Card image cap">
+                                            <div class="desc-portifolio">
+                                                <h2> Web Design project </h2>
+                                                <p> UX/UI Design </p>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-lg-3 ">
+                                        <div class="port-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                                            alt="Card image cap">
+                                            <div class="desc-portifolio">
+                                                <h2> Web Design project </h2>
+                                                <p> UX/UI Design </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/.First slide-->
+                            <div class="btns-carousel-continer">
+                                <div class="col-md-1 btn-carousel">
+                                    <div class=" mb-1">
+                                        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 btn-carousel">
+                                    <div class=" mb-1">
+                                        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Slides-->
+                    </div>        
+                </div>
+            </div>
+            <div class="our-blog-continer" id="blog">
+                <div class="blog-circle-img">
+                    <img src="./images/blog-circle" alt="">    
+                </div>
+                <div class="our-blog-tittle">
+                    <p> Our Blogs </p>
+                    <h2> Our Blog & article </h2>
+                </div>
+                <div class="blog-boxs" data-aos="fade-right">
+                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner">
+                            <!--First slide-->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="blog-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"   
+                                            alt="Card image cap">
+                                            <div class="desc-blog">
+                                                <p> August 27, 2020 </p>
+                                                <h2> Why we decided to create Build Your DXP</h2>
+                                            </div>
+                                            <div class="blog-plus-icon">
+                                                <i class="fa fa-plus"> </i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="blog-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                                            alt="Card image cap">
+                                            <div class="desc-blog">
+                                                <p> August 27, 2020 </p>
+                                                <h2> Why we decided to create Build Your DXP </h2>
+                                            </div>
+                                            <div class="blog-plus-icon">
+                                                <i class="fa fa-plus"> </i>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-lg-3 ">
+                                        <div class="blog-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                                            alt="Card image cap">
+                                            <div class="desc-blog">
+                                                <p> August 27, 2020 </p>
+                                                <h2> Why we decided to create Build Your DXP </h2>
+                                            </div>
+                                            <div class="blog-plus-icon">
+                                                <i class="fa fa-plus"> </i>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-lg-3 ">
+                                        <div class="blog-box-continer mb-2">
+                                            <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                                            alt="Card image cap">
+                                            <div class="desc-blog">
+                                                <p> August 27, 2020 </p>
+                                                <h2> Why we decided to create Build Your DXP </h2>
+                                            </div>
+                                            <div class="blog-plus-icon">
+                                                <i class="fa fa-plus"> </i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/.First slide-->
+                            <div class="btns-carousel-continer">
+                                <div class="col-md-1 btn-carousel">
+                                    <div class=" mb-1">
+                                        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 btn-carousel">
+                                    <div class=" mb-1">
+                                        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Slides-->
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="connect">
+            <div class="row">
+                <div class="footer-img col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                    <img src="./images/footer1" alt="">
+                </div>
+                <div class="footer-subscibe col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img src="./images/footer2" alt="">
+                    <div class="sub-desc">
+                        <h2> Like our service? Subscribe us </h2>
+                        <p> As a app web crawler expert, I help organizations adjust to the expanding significance of internet promoting. </p>
+                        <div class="custom-input">
+                            <input type="text" placeholder="Enter your email">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-img2 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                    <img src="./images/footer3" alt="">
+                </div>
+            </div>
+            <div class="footer-link">
+                <div class="continer-links-footer row">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 logo-text-footer">
+                        <a class="navbar-brand nav-logo" href="#"> <i class="fa fa-google"></i> </a>
+                        <p>Proin ac quam et lectus vestibulum blandit. Nunc maximus nibh at placerat tincidunt. Nam sem lacus, ornare non ante sed, ultricies fringilla massa.</p>
+                    </div> 
+                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 first-list-footer">
+                        <h2> COMPANY </h2>
+                        <ul>   
+                            <li> <a href="#about"> About Us </a> </li>
+                            <li> <a href="#connect"> Contact us </a>  </li>
+                            <li> Careers </li>
+                            <li> Support </li>
+                        </ul>
+                    </div>  
+                    <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2 first-list-footer">
+                        <ul>   
+                            <li> FAQ </li>
+                            <li> Terms </li>
+                            <li> Privacy </li>
+                            <li> Blog </li>
+                        </ul>
+                    </div>  
+                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 first-list-footer"> 
+                        <h2> Contact </h2>  
+                        <ul>   
+                            <li> Phone: +1 605 722 2032 </li>
+                            <li> Email: example@mail.com </li>
+                            <li> Address: Charlotte, North Carolina, United States </li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
+            <div class="icons-footer">
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+                <div class="all-rights">
+                    <p> © 2020 — All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
